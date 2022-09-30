@@ -28,3 +28,9 @@ indicando sus funcionalidades, al finalizar el proyecto.
 -
 (*) Por innovación se entiende cualquier tipo de mejora propuesta por parte del equipo al trabajo práctico, a ser
 posible de realizar dentro de los plazos posibles.
+
+Miembros del equipo de desarrollo:
+-Nicolas E Martin
+-
+-
+-
