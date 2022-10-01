@@ -31,6 +31,6 @@ posible de realizar dentro de los plazos posibles.
 
 Miembros del equipo de desarrollo:
 -Nicolas E Martin
--
+-Juan A Benasar
 -
 -
