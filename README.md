@@ -33,6 +33,11 @@ Miembros del equipo de desarrollo:
 
 -Nicolas E Martin
 -Juan A Benasar
+<<<<<<< HEAD
 -Hugo Orlando Benitez
 -Ana Santillán
 
+=======
+- Ana Santillán
+-
+>>>>>>> upstream/main
