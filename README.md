@@ -34,7 +34,11 @@ Miembros del equipo de desarrollo:
 -Nicolas E Martin
 -Juan A Benasar
 -Hugo Orlando Benitez
+<<<<<<< HEAD
 -Ana Santillán
 
+=======
+- Ana Santillán
+>>>>>>> a1650424b5bdf64dcd011da83c1da21d4c173be6
 
 
