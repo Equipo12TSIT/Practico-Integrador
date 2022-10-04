@@ -14,7 +14,7 @@ try:
 
 
 except:
-     print("No se conecto.") 
+     print("No se conecto") 
 
 finally:
    if conexion.is_connected():
