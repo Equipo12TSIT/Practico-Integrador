@@ -30,7 +30,10 @@ indicando sus funcionalidades, al finalizar el proyecto.
 posible de realizar dentro de los plazos posibles.
 
 Miembros del equipo de desarrollo:
+
 -Nicolas E Martin
--
--
--
+-Juan A Benasar
+-Hugo Orlando Benitez
+-Ana Santillán
+-Carina Fariaz
+
