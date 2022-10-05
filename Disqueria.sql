@@ -94,3 +94,22 @@ insert into tema values (null,'Lêttre à ma Mère','00:40:00','Paul De Sennevil
 insert into tema values (null,'Mariage D Amour','00:03:00','Paul De Senneville','Paul De Senneville',1,3);
 insert into tema values (null,"Souvenirs D'Enfance",'00:03:00','Paul De Senneville','Paul De Senneville',1,3);
 insert into tema values (null,"Nostalgie",'00:03:00','Paul De Senneville','Paul De Senneville',1,3);
+
+Use disqueria;
+insert into discografica values (null,'Domino Records');
+insert into genero values (null,'Rock'),(null, 'Indie');
+insert into interprete values (null,'Artic','Monkeys','Inglaterra',null);
+insert into album values (null,1234571,'AM',19,8,12,6,1,'2013-09-09',1200,5,null);
+
+insert into tema values (null, 'Do I Wanna Know?', '04:32:00', 'Alex Turner', 'Alex Turner',5,19);
+insert into tema values (null, 'R U Mine?', '03:20:00', 'Alex Turner, Nick O Malley', 'Alex Turner, Nick O Malley',5,19);
+insert into tema values (null, 'One For The Road','03:26:00', 'Alex Turner', 'Alex Turner',5,19);
+insert into tema values (null, 'Arabella', '03:27:00', 'Alex Turner', 'Alex Turner',5,19);
+insert into tema values (null, 'I Want It All','03:04:00', 'Alex Turner', 'Alex Turner',5,19);
+insert into tema values (null, 'No.1 Party Anthem','04:03:00', 'Alex Turner','Alex Turner',5,19);
+insert into tema values (null, 'Mad Sounds', '03:35:00', 'Alex Turner', 'Alex Turner',5,19);
+insert into tema values (null, 'Fireside',' 03:01:00', 'Alex Turner', 'Alex Turner',5,19);
+insert into tema values (null, 'Whyd You Only Call Me When Youre High?', '02:42:00', 'Alex Turner', 'Alex Turner',5,19);
+insert into tema values (null, 'Snap Out Of It', '03:12:00', 'Alex Turner', 'Alex Turner',5,19);
+insert into tema values (null, 'Knee Socks','04:17:00', 'Alex Turner', 'Alex Turner',5,19);
+insert into tema values (null, 'I Wanna Be Yours', '03:04:00', 'Alex Turner', 'Alex Turner',5,19);
