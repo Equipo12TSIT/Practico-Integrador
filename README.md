@@ -34,4 +34,5 @@ Miembros del equipo de desarrollo:
 -Juan A Benasar
 -Hugo Orlando Benitez
 - Ana Santillán
+-Carina Fariaz.
 
