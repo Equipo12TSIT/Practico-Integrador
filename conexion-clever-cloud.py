@@ -22,4 +22,4 @@ except:
 finally:
     if conexion.is_connected():
         conexion.close()
-        print ("Conexion cerrada") 
+        print ("Conexion cerrada")
