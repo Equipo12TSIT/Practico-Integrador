@@ -70,4 +70,4 @@ class Conectar():
 
 
 con = Conectar ()
-con.InsertarInterprete
+con.InsertarInterprete ('')
