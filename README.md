@@ -35,3 +35,4 @@ Miembros del equipo de desarrollo:
 -Hugo Orlando Benitez
 - Ana Santillán
 -Carina Fariaz
+- Romina Caballero 
