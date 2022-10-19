@@ -60,19 +60,30 @@ insert into interprete values (null, 'Tini', 'Stoessel', 'argentina',null);
 insert into interprete values (null, 'Maria ', 'Becerra', 'argentina',null);
 insert into interprete values (null, 'Karol ', 'G', 'colombiana',null); 
 
+use disqueria;
+insert into interprete values (null, 'Sin', 'Bandera', 'Mexico-Argentina',null);
+insert into interprete values (null, 'Luciano', 'Pereyra', 'Argentina',null);
+insert into interprete values (null, 'Estelares', 'Argentina',null);
+
 insert into genero values ( null, 'pop');
 insert into genero values ( null, 'regueton');
 insert into genero values ( null, 'regueton');
+insert into genero values (null,'Balada Romántica'),(null,'Rock Latino'),(null,'Urbano Latino');
  
 insert into discografica values (null,'Hollywood Records');
  insert into discografica values (null,'300 Entertainment'); 
  insert into discografica values (null,'UMLE - Latino');
+ insert into discografica values (null,'Sony Discos'),(null,'PopArt Discos');
  
 insert into formato values (null,'Compact Disc');
 
 insert into album values (null,200, 'Tini Tini Tini',1,1, 14,1,1, '2020-12-03', 1642, 500000,null); 
 insert into album values (null,201, 'Animal',2,2, 11,2,1, '2021-08-26', 2900, 00000,null); 
 insert into album values (null,202, 'Ocean',3,2, 16,3,1, '2019-05-03', 1472, 00000,null); 
+
+insert into album values (null,203,'De Viaje',16,6,16,6,1,'2003-10-21',1200,4,null);
+insert into album values (null,204,'De Hoy En Adelante',17,8,11,4,1,'2022-08-12',1900,3,null);
+insert into album values (null,205,'Sistema Nervioso Central',18,7,14,7,1,'2006-09-06',1500,2,null);
  
  
 insert into tema values (null, 'Un beso en Madrid', '00:02:24', 'Tini Stoessel y Alejandro Sanz', 'Tini Stoessel, Alejandro Sanz', 1, 1 );
@@ -120,3 +131,44 @@ insert into tema values (null, 'Episodios', '00:02:51', 'Maria Becerra ', 'Maria
   insert into tema values (null, 'Mi cama (Remix)', '00:03:15', 'Karol G, J Balvin y Nicky Jam)', 'Karol G, Omar Koonze, Rene David Cano Rios, Antonio Rayo, Andy Clay, J Balvin, Nicky Jam', 3, 3 );
   insert into tema values (null, 'Yo aprendí', '00:03:05', 'Karol G y Danay Suárez', '	Karol G, Danay Suárez', 3, 3 );
   
+
+insert into tema values (null,'De Viaje','00:04:14','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Amor Real','00:04:04','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Ven','00:03:43','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'ABC','00:04:31','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Contigo','00:03:59','Leonel Garcia','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Magia','00:04:43','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Bien','00:03:56','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Que Lloro','00:04:02','Leonel Garcia','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Canción Para Los Días Lluviosos','00:03:55','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Mientes Tan Bien','00:03:49','Leonel Garcia','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Puede Ser','00:04:20','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Aquí','00:04:48','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Te Esperare(intro)','00:00:32','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Suficiente','00:03:14','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'Tal Vez','00:06:51','Leonel Garcia y Noel Schajris','Leonel Garcia y Noel Schajris',16,16);
+insert into tema values (null,'De Hoy En Adelante','00:00:43','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Me Mentiste','00:02:47','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Te Estás Enamorando De Mí','00:02:43','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Quedate','00:03:16','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Una Mujer Como Tú','00:03:45','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Si No Te Hago Falta','00:06:58','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Como Siempre','00:03:09','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Eres Perfecta','00:02:46','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Para Que Quieres Volver','00:03:08','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Que No Se Le Olvide','00:03:29','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Me Enamoré De Tí','00:04:42','Luciano Pereyra','Luciano Pereyra',17,17);
+insert into tema values (null,'Las Vias del Tren','00:03:'48,'Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'Eléctricos Duendes','00:03:'41,'Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'Un Día Perfecto','00:04:02','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'Aire','00:03:36','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'Ella Dijo','00:04:44','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'200 Monos','00:04:00','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'Jardines Secos','00:04:43','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'El Corazón Sobre Todo','00:03:50','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'Un Show','00:04:43','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'Luxemburgués','00:04:29','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'Buri Buri','00:03:29','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'Campanas','00:04:19','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'¿Qué Será?','00:03:47','Manuel Moretti','Manuel Moretti',18,18);
+insert into tema values (null,'Ardimos','00:04:37','Manuel Moretti','Manuel Moretti',18,18);
